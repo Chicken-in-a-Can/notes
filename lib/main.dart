@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:dynamic_color/dynamic_color.dart';
-import 'note.dart' as note;
+import 'note/note.dart' as note;
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
                         colorScheme: darkDynamic,
                         useMaterial3: true,
                     ),
-                    home: const MyHomePage(title: 'Notes Main Page'),
+                    home: const MyHomePage(title: 'Notes Main'),
                 );
             }
         );
